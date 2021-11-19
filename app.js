@@ -17,7 +17,6 @@ const productRouter = require("./routers/productPouters");
 const errorHandlerMiddleware = require("./middleware/errorHandlerMiddleware");
 const notFoundMiddleware = require("./middleware/notFoundMiddleware");
 
-
 app.use(express.json());
 app.use(cors());
 
